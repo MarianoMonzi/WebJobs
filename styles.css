@@ -1,18 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
-    background-image: url(./images/background.jpg);
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
+.boton-registro {
+    width: 100%;
+    padding-right: 20px;
+    text-align: end;
+}
 
 .form-register{
     width: 400px;
     background: #24303c;
     padding: 30px;
     margin: auto;
-    margin-top: 50px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
@@ -77,4 +81,17 @@
 .tabla{
     text-align: center;
 }
+
+.title-register{
+    color: white;
+    background: transparent;
+}
+
+.button-close{
+    padding: auto;
+    color: white;
+    background: transparent;
+}
+
+
 
